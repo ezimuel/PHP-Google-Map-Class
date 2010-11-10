@@ -1,0 +1,4 @@
+A light PHP class that uses the Google Maps API to provide geographic information from a generic address (city, country,street+city, etc).
+
+(C) Copyright 2009 Enrico Zimuel
+http://www.zimuel.it
