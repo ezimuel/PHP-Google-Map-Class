@@ -101,7 +101,7 @@ class GMaps
         if (! empty($xml->Response)) {
             $point= $xml->Response->Placemark->Point;
             if (! empty($point)) {
-                $coordinatesSplit = split(",", $point->coordinates);
+                $coordinatesSplit = explode(",", $point->coordinates);
                 // Format: Longitude, Latitude, Altitude
                 $this->_latitude = $coordinatesSplit[1];
                 $this->_longitude = $coordinatesSplit[0];    
